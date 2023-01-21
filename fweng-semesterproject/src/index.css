@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+   body {
+      @apply font-sans;
+   }
+   input {
+      @apply border;
+   }
+   h1 {
+      @apply text-2xl text-center font-bold my-3;
+   }
+   h2 {
+      @apply text-xl font-bold my-2;
+   }
+
+}
+
+@layer components {
+   .view-container {
+      @apply m-5;
+   }
+}
