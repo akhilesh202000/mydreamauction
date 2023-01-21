@@ -1,9 +1,9 @@
 # Intellij
 .idea/
-.iml
+*.iml
 
 # Maven
-**/target/**
+*/target/**
 
 # Spring Boot
 /bin/
