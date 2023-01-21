@@ -6,7 +6,22 @@
 */target/**
 
 # Spring Boot
-/bin/
-/build/
-/log/
-/out/
+**/bin/**
+**/build/**
+**/log/**
+**/out/**
+
+# node_modules
+**/dist/**
+**/node_modules/**
+
+# config
+.env
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# build
+/vue.config.js
